@@ -1,7 +1,7 @@
 import cv2
 
 
-class cropregion:
+class CropRegion:
     def __init__(self,frame,mainframe):
         self.frame = frame
         self.mainframe = mainframe
